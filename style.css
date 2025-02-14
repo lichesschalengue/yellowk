@@ -1986,7 +1986,7 @@ body {
 
 .cajasin {
   position: absolute;
-  width: 500px;
+  width: 200vh;
   height: 80px;
 
   display: block;
@@ -1994,19 +1994,38 @@ body {
   z-index: 1;
   opacity: 1;
   visibility: visible;
+
+  #background-color: red;
+
+
 }
 
 .finaltext {
   position: relative;
-  left: 75px;
-  top: -110px;
+  left: 46.5%;
+  top: 600px;
 
   width: 40px;
   height: 40px;
 
-  font-size: 20px;
+  font-size: 40px;
   display: block; 
-  color: black;
+  color: white;
   z-index: 1;
+
+  #background-color: blue;
+
+  #top: 39%;
+  #left: 24%;
+  height: 65px;
+  width: 110px;
+  padding: 5px 5px 5px 5px;
+  -webkit-animation: love-burst 3s infinite 2.85s;
+  animation: love-burst 3s infinite 2.85s;
+  box-shadow: inset 0 0 0 9.5vmin transparent;
+  -webkit-transform: translate(0, 0.2em) scale(0);
+  transform: translate(0, 0.2em) scale(0);
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
 }
 
